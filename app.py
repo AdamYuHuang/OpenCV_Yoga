@@ -216,7 +216,7 @@ def classifyPose(landmarks, output_image):
 def webcam_feed():
     # Initialize the VideoCapture object to read from the webcam
     #camera_video = cv2.VideoCapture(0)
-    camera_video = cv2.VideoCapture("show_video.mp4")
+    camera_video = cv2.VideoCapture()#video or camera path
     camera_video.set(3, 1380)
     camera_video.set(4, 960)
 
